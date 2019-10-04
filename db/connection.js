@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost/smArt", { useNewUrlParser: true }, () => {
+mongoose.connect("mongodb://localhost/smart", { useNewUrlParser: true }, () => {
   console.log("Mongoose connected!");
 });
 

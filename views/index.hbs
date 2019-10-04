@@ -1,0 +1,11 @@
+<section>
+    <h2>Tutorials</h2>
+    <h3>How do you want to express yourself today?</h3>
+</section>
+<section>
+    <ul class="index-list">
+        {{#each tuts}}
+        <li><a href="/{{this.id}}">{{this.short}}</a></li>
+        {{/each}}
+    </ul>
+</section>

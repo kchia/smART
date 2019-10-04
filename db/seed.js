@@ -1,10 +1,11 @@
-const Tutorial = require("../db/models/tutorial");
-const seedTuts = require("./seeds.json");
+const Tutorial = require("./models/tutorial");
+const seedData = require("./seeds.json");
 
 Tutorial.deleteMany({})
   .then(() => {
-    return Tutorial.insertMany(seedTuts);
+    return Tutorial.insertMany(seedData);
   })
   .then(() => {
+    console.log("MAKE ART!");
     process.exit();
   });
