@@ -11,6 +11,11 @@ router.get("/", (req, res) => {
 });
 
 // single tut router (R)
+router.get("/:id", (req, res) => {
+  Tutorial.findOne({ _id: req.params.id })
+    .then(tut => res.render("tut", tut))
+    .catch(err => console.error(err));
+});
 
 // CUD page router for tut
 
