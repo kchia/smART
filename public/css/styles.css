@@ -4,14 +4,150 @@ body {
     font-family: 'Montserrat', sans-serif;
     background: #F2F2F2;
     color: #1E3C6E;
-    padding: 0 2%;
+    margin: 2% 2% 2%;
+    line-height: 1.45em;
+    font-size: 18px;
+    border: .4em solid #1E3C6E;
 }
 
-h1,
+.wrapper {
+    padding: 1em 4em 3em;
+}
+
 h2,
 h3,
 h4,
-h5 {
-    font-weight: 900;
+h5,
+label {
+    font-weight: 700;
     letter-spacing: .025em;
+    margin: 0 .05em .25em 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1.85em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+/*  header setup */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: .4em solid #1E3C6E;
+    padding: 0 1.5em;
+}
+
+/* text logo */
+h1 {
+    font-weight: 900;
+    font-size: 2.85em;
+    letter-spacing: .025em;
+}
+
+/* https://css-tricks.com/useful-nth-child-recipies/ */
+h1:nth-child(-n+2) {
+    font-variant: small-caps;
+}
+
+/* navigation */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    margin: 0 0 0 .9em;
+    font-weight: 700;
+}
+
+/* index view */
+ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.index-list a:hover {
+    background: #FFAF0F;
+}
+
+/* tut view */
+h4 {
+    font-size: 1.25em;
+}
+
+.steps h4 {
+    margin-left: .5em;
+}
+
+h5 {
+    margin-top: 2.5em;
+    font-size: 1.025em;
+}
+
+h3,
+label {
+    font-size: 1.17em;
+}
+
+ol {
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: block;
+}
+
+ol li {
+    margin: .5em;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    margin: 2.5em 0 0;
+}
+
+.supplies {
+    margin-right: 2.5em;
+    max-width: 30%;
+}
+
+.supplies,
+.steps {
+    display: inline-block;
+}
+
+.steps {
+    max-width: 70%;
+}
+
+/* forms */
+textarea {
+    white-space: pre-line;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
 }
