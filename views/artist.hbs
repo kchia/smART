@@ -1,0 +1,27 @@
+<section>
+    <h2>{{name}}</h2>
+    <h3>{{title}}</h3>
+</section>
+<main>
+    <section class="supplies">
+        <img src="{{photo}}" alt="{{name}}">
+        <ul>
+            <li><strong>Birth:</strong> {{birth}}</li>
+            <li><strong>Death:</strong> {{death}}</li>
+        </ul>
+        <h5>Related Tutorials</h5>
+        {{#each tutorials}}
+        <a href="{{this.id}}">{{this.title}}</a>
+        {{/each}}
+    </section>
+    <section class="bio">
+        <h4>Biography</h4>
+        <p>{{bio}}</p>
+        <h4>Important Works</h4>
+        <ul>
+            {{#each works}}
+            <li>{{this}}</li>
+            {{/each}}
+        </ul>
+    </section>
+</main>

@@ -2,12 +2,13 @@ const express = require("express");
 const router = express.Router();
 
 const Tutorial = require("../db/models/tutorial");
+const Artist = require("../db/models/artist");
 
 // tut index router (R)
 router.get("/", (req, res) => {
-  Tutorial.find({})
-    .then(tuts => res.render("index", { tuts }))
-    .catch(err => console.error(err));
+  Tutorial.find({}).then(tuts => res.render("index", { tuts }));
+
+  //   Artist.find({}).then(artists => res.render("index", artists));
 });
 
 // CUD page router for new tut
