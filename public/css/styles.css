@@ -206,3 +206,19 @@ input[type="submit"] {
     color: #F2F2F2;
     letter-spacing: 1px;
 }
+
+input[type="submit"]:hover {
+    background: rgb(111, 192, 29);
+    cursor: pointer;
+}
+
+
+/* delete */
+.delete input[type="submit"] {
+    background: #DB2800;
+}
+
+.delete input[type="submit"]:hover {
+    background: rgb(238, 44, 0);
+    cursor: pointer;
+}

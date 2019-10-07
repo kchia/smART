@@ -25,7 +25,7 @@ router.get("/:id", (req, res) => {
 // CUD page router for existing tut
 router.get("/:id/edit", (req, res) => {
   Tutorial.findOne({ _id: req.params.id }).then(tut => {
-    res.render("new", tut);
+    res.render("edit", tut);
   });
 });
 
@@ -42,21 +42,22 @@ router.post("/", (req, res) => {
 });
 
 // PUT router (U)
-// router.put("/:id", (req, res) => {
-//   req.body.supplies = req.body.supplies.split("\n");
-//   req.body.optional = req.body.optional.split("\n");
-//   req.body.steps = req.body.steps.split("\n- ");
+router.put("/:id", (req, res) => {
+  req.body.supplies = req.body.supplies.split("\n");
+  req.body.optional = req.body.optional.split("\n");
+  req.body.steps = req.body.steps.split("+ ");
+  req.body.steps.shift();
 
-//   Tutorial.findOneAndUpdate({ _id: req.params.id }, req.body).then(tut => {
-//     res.redirect("/edit/:id");
-//   });
-// });
+  Tutorial.findOneAndUpdate({ _id: req.params.id }, req.body).then(() => {
+    res.redirect(`/`);
+  });
+});
 
 // DELETE router (D)
-// router.delete("/:id", (req, res) => {
-//   Tutorial.findOneAndDelete({ _id: req.params.id }).then(() => {
-//     res.redirect("/");
-//   });
-// });
+router.delete("/:id", (req, res) => {
+  Tutorial.findOneAndDelete({ _id: req.params.id }).then(() => {
+    res.redirect("/");
+  });
+});
 
 module.exports = router;
