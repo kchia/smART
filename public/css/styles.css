@@ -29,7 +29,8 @@ h2 {
     font-size: 1.85em;
 }
 
-h3 {
+h3,
+label {
     font-size: 1.17em;
 }
 
@@ -63,12 +64,16 @@ nav {
 
 nav ul li {
     display: inline;
+    margin: 0 0 0 .9em;
 }
 
 nav ul li a {
     text-transform: uppercase;
-    margin: 0 0 0 .9em;
     font-weight: 700;
+}
+
+nav ul li:hover {
+    border-bottom: 3px solid #1E3C6E;
 }
 
 /* index view */
@@ -93,11 +98,6 @@ h4 {
 h5 {
     margin-top: 2.5em;
     font-size: 1.025em;
-}
-
-h3,
-label {
-    font-size: 1.17em;
 }
 
 ol {
@@ -142,12 +142,67 @@ section {
 }
 
 /* forms */
-textarea {
-    white-space: pre-line;
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 2em 0;
 }
 
-fieldset {
-    border: 0;
-    padding: 0;
-    margin: 0;
+input,
+textarea {
+    border: 4px solid #1E3C6E;
+    background: #F2F2F2;
+    padding: .75em 1em;
+    font-size: .75em;
+}
+
+.form-row {
+    align-self: stretch;
+    margin-bottom: 1.5em;
+}
+
+.subrow {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    text-align: right;
+}
+
+label {
+    padding: .5em;
+}
+
+input[type="text"] {
+    margin-bottom: .5em;
+}
+
+.tut-row {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+}
+
+.supply-form {
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr 1fr 4fr;
+    grid-auto-columns: 1fr;
+    margin-right: 2em;
+}
+
+.steps-form {
+    display: grid;
+    grid-template-rows: 1fr 12fr
+}
+
+textarea {
+    white-space: pre-line;
+    /* width: 100%; */
+}
+
+input[type="submit"] {
+    align-self: flex-end;
+    text-transform: uppercase;
+    font-weight: 900;
+    background: #5EA319;
+    color: #F2F2F2;
+    letter-spacing: 1px;
 }

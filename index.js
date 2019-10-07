@@ -1,23 +1,21 @@
 const express = require("express");
 const hbs = require("hbs");
+const app = express();
 const parser = require("body-parser");
 const methodOverride = require("method-override");
-
-const app = express();
-
 const tutorialController = require("./controllers/tutorials");
 
 // HBS view engine connection
 app.set("view engine", "hbs");
 
-// body parser connection
-app.use(parser.urlencoded({ extended: true }));
+// css connection
+app.use(express.static("public"));
 
 // method override connection
 app.use(methodOverride("_method"));
 
-// css connection
-app.use(express.static("public"));
+// body parser connection
+app.use(parser.urlencoded({ extended: true }));
 
 // router connection
 app.use("/", tutorialController);

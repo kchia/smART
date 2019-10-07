@@ -33,29 +33,30 @@ router.get("/:id/edit", (req, res) => {
 router.post("/", (req, res) => {
   req.body.supplies = req.body.supplies.split("\n");
   req.body.optional = req.body.optional.split("\n");
-  req.body.steps = req.body.steps.split("\n-");
+  req.body.steps = req.body.steps.split("+ ");
+  req.body.steps.shift();
 
-  Tutorial.create(req.body).then(tut => {
+  Tutorial.create(req.body).then(() => {
     res.redirect("/");
   });
 });
 
 // PUT router (U)
-router.put("/:id", (req, res) => {
-  req.body.supplies = req.body.supplies.split("\n");
-  req.body.optional = req.body.optional.split("\n");
-  req.body.steps = req.body.steps.split("\n-");
+// router.put("/:id", (req, res) => {
+//   req.body.supplies = req.body.supplies.split("\n");
+//   req.body.optional = req.body.optional.split("\n");
+//   req.body.steps = req.body.steps.split("\n- ");
 
-  Tutorial.findOneAndUpdate({ _id: req.params.id }, req.body).then(tut => {
-    res.redirect("/edit/:id");
-  });
-});
+//   Tutorial.findOneAndUpdate({ _id: req.params.id }, req.body).then(tut => {
+//     res.redirect("/edit/:id");
+//   });
+// });
 
 // DELETE router (D)
-router.delete("/:id", (req, res) => {
-  Tutorial.findOneAndDelete({ _id: req.params.id }).then(() => {
-    res.redirect("/");
-  });
-});
+// router.delete("/:id", (req, res) => {
+//   Tutorial.findOneAndDelete({ _id: req.params.id }).then(() => {
+//     res.redirect("/");
+//   });
+// });
 
 module.exports = router;
