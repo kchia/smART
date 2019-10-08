@@ -1,5 +1,7 @@
 const hamburger = document.querySelector(".hamburger");
 const navigation = document.querySelector("nav");
+const birth = document.getElementById("birth");
+const death = document.getElementById("death");
 
 // menu open/close event
 hamburger.addEventListener("click", openMenu);
@@ -24,3 +26,16 @@ function openMenu() {
     navSwitch = 0;
   }
 }
+
+// date formatter
+function dateSimplified(date) {
+  console.log(date);
+  // if(date === null) {
+  //   break;
+  // } else {
+
+  // }
+}
+
+dateSimplified(birth);
+dateSimplified(death);

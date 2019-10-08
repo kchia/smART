@@ -145,6 +145,10 @@ section {
     max-width: 30%;
 }
 
+.pbdr-form {
+    margin-right: 2.5em;
+}
+
 .supplies,
 .steps {
     display: inline-block;
@@ -216,9 +220,24 @@ input[type="text"] {
     margin-right: 2em;
 }
 
+.pbdr-form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+}
+
 .steps-form {
     display: grid;
     grid-template-rows: 1fr 12fr
+}
+
+.bio-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio-form .important-works {
+    margin-top: 1em;
 }
 
 textarea {
@@ -241,6 +260,10 @@ input[type="submit"]:hover {
 }
 
 /* delete */
+.delete {
+    margin: -4.45em 7em 1em;
+}
+
 .delete input[type="submit"] {
     background: #DB2800;
 }
@@ -348,6 +371,10 @@ input[type="submit"]:hover {
 @media only screen and (max-width: 600px) {
     body {
         font-size: 14px;
+    }
+
+    .index-column {
+        margin-right: 0;
     }
 
     .hamburger {

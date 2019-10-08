@@ -5,13 +5,14 @@ const Tutorial = require("../db/models/tutorial");
 const Artist = require("../db/models/artist");
 
 // tut index router (R)
+// Thanks to Kenny for helping me finish stitching these together into a single view
 router.get("/", (req, res) => {
-  Tutorial.find({}).then(tuts => res.render("index", { tuts }));
-
-  //   Artist.find({}).then(artists => res.render("index", artists));
+  Tutorial.find({}).then(tuts => {
+    Artist.find({}).then(artists => res.render("index", { artists, tuts }));
+  });
 });
 
-// CUD page router for new tut
+// page router for new tut (C)
 router.get("/new", (req, res) => {
   res.render("new");
 });
@@ -23,7 +24,7 @@ router.get("/:id", (req, res) => {
     .catch(err => console.error(err));
 });
 
-// CUD page router for existing tut
+// page router for existing tut (UD)
 router.get("/:id/edit", (req, res) => {
   Tutorial.findOne({ _id: req.params.id }).then(tut => {
     res.render("edit", tut);

@@ -1,0 +1,40 @@
+<form action="/artists/{{id}}?_method=put" method="POST">
+
+    <div class="form-row">
+        <div class="subrow">
+            <label for="name">Name</label>
+            <input type="text" name="name" value="{{name}}">
+            <label for="title">Title</label>
+            <input type="text" name="title" value="{{title}}">
+        </div>
+    </div>
+
+    <div class="form-row tut-row">
+
+        <div class="pbdr-form">
+            <h3>Photo</h3>
+            <input type="url" name="photo" placeholder="Url" value="{{photo}}">
+            <dir></dir>
+            <h3>Birth & Death</h3>
+            <input type="text" name="birth" placeholder="Birth (yyyy-mm-dd)" value="{{birth}}">
+            <input type="text" name="death" placeholder="Death (yyyy-mm-dd)" value="{{death}}">
+        </div>
+
+        <div class="bio-form">
+            <h3>Biography</h3>
+            <textarea name="bio" rows="12" placeholder="Biography">{{bio}}</textarea>
+            <div></div>
+            <h3 class="important-works">Important Works</h3>
+            <textarea name="works" rows="8" placeholder="Each Title (YYYY) on separate line">{{#each works}}{{this}}
+                {{/each~}}
+                </textarea>
+        </div>
+
+    </div>
+
+    <input type="submit" value="Submit" id="submit">
+
+</form>
+<form class="delete" action="/artists/{{id}}?_method=delete" method="POST">
+    <input type="submit" value="Delete">
+</form>

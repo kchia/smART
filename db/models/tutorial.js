@@ -6,7 +6,13 @@ const TutorialSchema = new mongoose.Schema({
   short: String,
   supplies: [String],
   optional: [String],
-  steps: [String]
+  steps: [String],
+  artists: [
+    {
+      ref: "Artist",
+      type: mongoose.Schema.Types.ObjectId
+    }
+  ]
 });
 
 const Tutorial = mongoose.model("Tutorial", TutorialSchema);

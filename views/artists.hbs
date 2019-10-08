@@ -1,0 +1,13 @@
+<section>
+    <h2>Inspiration</h2>
+    <h3>Learn about artists. Get inspired.</h3>
+</section>
+<main>
+    <section class="index-column">
+        <ul class="index-list">
+            {{#each artists}}
+            <li><a href="/artists/{{this.id}}">{{this.name}}</a></li>
+            {{/each}}
+        </ul>
+    </section>
+</main>

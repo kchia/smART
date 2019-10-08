@@ -1,0 +1,35 @@
+<form action="/artists" method="POST">
+
+    <div class="form-row">
+        <div class="subrow">
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Full Name">
+            <label for="title">Title</label>
+            <input type="text" name="title" placeholder="Descriptive Title">
+        </div>
+    </div>
+
+    <div class="form-row tut-row">
+
+        <div class="pbdr-form">
+            <h3>Photo</h3>
+            <input type="url" name="photo" placeholder="Url">
+            <dir></dir>
+            <h3>Birth & Death</h3>
+            <input type="text" name="birth" placeholder="Birth (yyyy-mm-dd)">
+            <input type="text" name="death" placeholder="Death (yyyy-mm-dd)">
+        </div>
+
+        <div class="bio-form">
+            <h3>Biography</h3>
+            <textarea name="bio" rows="12" placeholder="Enter biography"></textarea>
+            <div></div>
+            <h3 class="important-works">Important Works</h3>
+            <textarea name="works" rows="8" placeholder="Each Title (YYYY) on separate line"></textarea>
+        </div>
+
+    </div>
+
+    <input type="submit" value="Submit" id="submit">
+
+</form>

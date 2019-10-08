@@ -1,0 +1,12 @@
+{
+    "_id": ObjectId("5d9cab914099b046b78b19ce"),
+    "works": ["Skull of a Skeleton with Burning Cigarette (1885-86)", "Peasant Woman Digging (1885)", "Self-Portrait with Grey Felt Hat (1887-88)", "Bedroom in Arles (1888)", "Van Gough’s Chair (1888)", "Still Life: Vase with Twelve Sunflowers (1888)", "The Sower (1888)", "Self-portrait with Bandaged Ear and Pipe (1889)", "Starry Night (1889)", "Wheat Fields (1889)"],
+    "tutorials": [],
+    "name": "Vincent van Gogh",
+    "title": "Portrait of a Painter",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Vincent_van_Gogh_-_Self-portrait_with_grey_felt_hat_-_Google_Art_Project.jpg",
+    "birth": ISODate("1853-03-30T00:00:00Z"),
+    "death": ISODate("1890-07-29T00:00:00Z"),
+    "bio": "Vincent Willem van Gogh was a Dutch post-impressionist painter who is among the most famous and influential figures in the history of Western art. In just over a decade he created about 2,100 artworks, including around 860 oil paintings, most of which date from the last two years of his life. They include landscapes, still lifes, portraits and self-portraits, and are characterized by bold colors and dramatic, impulsive and expressive brushwork that contributed to the foundations of modern art. He was not commercially successful, and his suicide at 37 came after years of mental illness and poverty.",
+    "__v": 0
+}
