@@ -26,16 +26,3 @@ function openMenu() {
     navSwitch = 0;
   }
 }
-
-// date formatter
-function dateSimplified(date) {
-  console.log(date);
-  // if(date === null) {
-  //   break;
-  // } else {
-
-  // }
-}
-
-dateSimplified(birth);
-dateSimplified(death);

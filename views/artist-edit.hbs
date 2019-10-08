@@ -16,8 +16,8 @@
             <input type="url" name="photo" placeholder="Url" value="{{photo}}">
             <dir></dir>
             <h3>Birth & Death</h3>
-            <input type="text" name="birth" placeholder="Birth (yyyy-mm-dd)" value="{{birth}}">
-            <input type="text" name="death" placeholder="Death (yyyy-mm-dd)" value="{{death}}">
+            <input type="text" name="birth" placeholder="Birth" value="{{birth}}">
+            <input type="text" name="death" placeholder="Death" value="{{death}}">
         </div>
 
         <div class="bio-form">
@@ -38,3 +38,4 @@
 <form class="delete" action="/artists/{{id}}?_method=delete" method="POST">
     <input type="submit" value="Delete">
 </form>
+<script src="/scripts/date.js"></script>

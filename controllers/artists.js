@@ -34,8 +34,8 @@ router.get("/:id/edit", (req, res) => {
 router.post("/", (req, res) => {
   req.body.works = req.body.works.split("\n");
 
-  Artist.create(req.body).then(() => {
-    res.redirect("/artists");
+  Artist.create(req.body).then(artist => {
+    res.redirect(`/artists/${artist.id}`);
   });
 });
 
@@ -43,15 +43,15 @@ router.post("/", (req, res) => {
 router.put("/:id", (req, res) => {
   req.body.works = req.body.works.split("\n");
 
-  Artist.findOneAndUpdate({ _id: req.params.id }, req.body).then(() => {
-    res.redirect("/artists");
+  Artist.findOneAndUpdate({ _id: req.params.id }, req.body).then(artist => {
+    res.redirect(`/artists/${artist.id}`);
   });
 });
 
 // // DELETE router (D)
 router.delete("/:id", (req, res) => {
   Artist.findOneAndDelete({ _id: req.params.id }).then(() => {
-    res.redirect("/artists");
+    res.redirect("/");
   });
 });
 

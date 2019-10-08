@@ -8,6 +8,7 @@ body {
     line-height: 1.45em;
     font-size: 18px;
     border: .4em solid #1E3C6E;
+    min-height: 89vh;
 }
 
 .hamburger {
@@ -45,6 +46,7 @@ header {
     justify-content: space-between;
     border-bottom: .4em solid #1E3C6E;
     padding: 0 1.5em;
+    margin: -1px;
 }
 
 /* text logo */
@@ -242,7 +244,6 @@ input[type="text"] {
 
 textarea {
     white-space: pre-line;
-    /* width: 100%; */
 }
 
 input[type="submit"] {
