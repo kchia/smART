@@ -20,8 +20,9 @@ Join the conversation and contribute your favorite artists or techniques by [vis
 
 ## Technologies Used
 
-- Node.js
+- HTML5 & CSS3
 - JavaScript
+- Node.js
 - Express
 - MongoDB
 - Mongoose
