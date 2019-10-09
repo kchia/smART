@@ -8,7 +8,7 @@ Sharing our favorite artists and techniques to change the way we create. Designe
 
 ## Engage Other Artists
 
-Join the conversation and contribute your favorite artists or techniques by [visiting the web app](URL).
+Join the conversation and contribute your favorite artists or techniques by visiting the web app at: [https://sm-art.herokuapp.com/tutorials](https://sm-art.herokuapp.com/tutorials).
 
 ## Features
 
@@ -62,7 +62,7 @@ Project plan includes wireframes, user stories, multi-tiered scope, and site arc
 - [ ] Graphic interface for categories homepage
 - [ ] User authentication
 - [ ] Improved validation
-- [ ] Advanced Editing capabilities on forms for dynamic addition and deletion of relationships
+- [ ] Advanced Editing capabilities on forms for dynamic addition and deletion of relationships, and styling
 - [ ] Third Page view, Schema, and expanded Index for Movements, Traditions, and 'Schools'
 
 ## Contribute
