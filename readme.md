@@ -1,4 +1,4 @@
-# smART | Art Made Friendly
+# smART : art made friendly
 
 smART is an online art making community. A place to share inspiration, techniques and ideas for making art.
 
@@ -8,7 +8,7 @@ Sharing our favorite artists and techniques to change the way we create. Designe
 
 ## Engage Other Artists
 
-Join the conversation and contribute your favorite artists or techniques [here](URL).
+Join the conversation and contribute your favorite artists or techniques by [visiting the web app](URL).
 
 ## Features
 
@@ -30,6 +30,7 @@ Join the conversation and contribute your favorite artists or techniques [here](
 ## Project Plan
 
 Project plan includes wireframes, user stories, multi-tiered scope, and site architecture plan.
+
 ![smART architecture and CRUD explanation.](smART-architecture.jpg)
 
 For more insight into the project plan and user stories please see the [PDF](smART-proj-plan.pdf).
@@ -54,14 +55,16 @@ For more insight into the project plan and user stories please see the [PDF](smA
 
 **Gold**
 
-- [ ] Multiple Index for Artists and Tutorials based on categories
+- [ ] Multiple Index for Artists, and Tutorials based on categories
 - [x] Full Artist CRUD capabilities
 
 **Platinum**
 
-- [ ] Graphic Interface for categories homepage
-- [ ] User Authentication
+- [ ] Graphic interface for categories homepage
+- [ ] User authentication
+- [ ] Improved validation
 - [ ] Advanced Editing capabilities for forms for dynamic addition and deletion of relationships
+- [ ] Third page view, schema, and expanded Index for Movements and 'Schools'
 
 ## Contribute
 

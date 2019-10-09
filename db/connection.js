@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 mongoose
-  .connect(mongoURI, {
+  .connect(`${mongoURI}`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false
