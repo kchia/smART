@@ -29,11 +29,9 @@ Join the conversation and contribute your favorite artists or techniques by [vis
 
 ## Project Plan
 
-Project plan includes wireframes, user stories, multi-tiered scope, and site architecture plan.
+Project plan includes wireframes, user stories, multi-tiered scope, and site architecture plan. For more on the project plan and user stories please see this [PDF](smART-proj-plan.pdf).
 
 ![smART architecture and CRUD explanation.](smART-architecture.jpg)
-
-For more insight into the project plan and user stories please see the [PDF](smART-proj-plan.pdf).
 
 ## Progress
 
@@ -63,10 +61,12 @@ For more insight into the project plan and user stories please see the [PDF](smA
 - [ ] Graphic interface for categories homepage
 - [ ] User authentication
 - [ ] Improved validation
-- [ ] Advanced Editing capabilities for forms for dynamic addition and deletion of relationships
-- [ ] Third page view, schema, and expanded Index for Movements and 'Schools'
+- [ ] Advanced Editing capabilities on forms for dynamic addition and deletion of relationships
+- [ ] Third Page view, Schema, and expanded Index for Movements, Traditions, and 'Schools'
 
 ## Contribute
+
+Share your thoughts on improvements and help us build more awesome stuff.
 
 - Issue Tracker: [https://github.com/jaredsmorgan/smART/issues](https://github.com/jaredsmorgan/smART/issues)
 - Source Code: [https://github.com/jaredsmorgan/smART](https://github.com/jaredsmorgan/smART)
