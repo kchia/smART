@@ -29,6 +29,9 @@ Join the conversation and contribute your favorite artists or techniques [here](
 
 ## Project Plan
 
+Project plan includes wireframes, user stories, multi-tiered scope, and site architecture plan.
+![smART architecture and CRUD explanation.](smART-architecture.pdf)
+
 For more insight into the project plan and user stories please see the [PDF](smART-proj-plan.pdf).
 
 ## Progress
