@@ -1,29 +1,83 @@
-[{
-        "title": "Paint Like Van Gogh",
-        "subtitle": "A step-by-step guide to get you painting like Van Gogh.",
-        "short": "Vincent Van Gogh",
-        "supplies": ["Gesso Primed Canvas", "Oil Paint", "Paint Thinner", "Rags or Paper Towels", "Filbert Bristle Hair #2", "Filbert #3", "Filbert #4", "Other stiff bristle brushes"],
-        "optional": ["Acrylic Paint", "Water"],
-        "steps": [
-            "Tone your canvas with an overall color that you see in the work. You can use acrylic paint thinned with water and let it dry, or you can use a thinned oil paint.",
-            "Divide your reference photo and canvas into a grid, dividing each side into even thirds. Don’t use a ruler as there is no need for perfection.\nUse a dry erase marker on a transparent sheet cover to preserve the photo. Use a thinned darker mixture of burnt sienna and ultramarine blue to draw your grid on your canvas.",
-            "Draw the largest shapes onto your canvas using the same thinned mixture. Use a smaller brush; I like a size 2 natural bristle hair filbert. If you make mistakes, you can easily wipe this off with a paper towel or rag soaked with some mineral spirits. Focus only on the large shapes. You’ll be adjusting placement and shapes later.",
-            "Begin studying the main colors in the reference. Notice the variations and contrasts between colors as well. There is no single formula or approach for mixing colors. Discover what works best for you to find a close match.",
-            "Develop your pallette of colors and test them next to one another on the canvas before mixing larger amounts.",
-            "Consider laying your paint on a towel as your pallette. This will absorb some oil and allow for a more matte finish.",
-            "Pick up a generous amount of paint with your brush. Begin laying the brush on the canvas with a light touch. Lay each stroke next to each other. Avoid rubbing the paint or moving the brush too much as you place each stroke.",
-            "When changing colors wipe off the previous color on a rag or paper towel before picking up the next color.",
-            "Think not only about form, but the emotion, light, and movement of the subject.",
-            "Allow but don't force colors to blend as you lay strokes next to one another.", "Proceed until you've covered your original sketch, and make adjustments to the shape as you go. It's okay to have portions of the toned canvas showing through between strokes.",
-            "You can emphasize edges of shapes with dark outlines."
-        ]
-    },
-    {
-        "title": "Screen Print Like Warhol",
-        "subtitle": "A step-by-step guide to pop-art screen printing.",
-        "short": "Andy Warhol",
-        "supplies": ["High Contrast B&W Photo", "Tracing Paper", "Chip Brush", "Black Acrylic", "Photo-emulsion", "Screens", "Coating Trough", "Drying Cabinet", "Exposure Unit", "Water hose", "Acrylic Paint", "Screen Printing Medium", "Hinge Clamps on a Secure Base", "Masking Tape", "Spatula", "Cutting Mat & X-ACTO Knife", "Acetate", "Squeegee", "Paper", "Sponge", "Bucket"],
-        "optional": ["Drafting Film", "Card Stock", "Non-paper Surface", "Newsprint"],
-        "steps": ["Print the high contrast photo on a piece of tracing paper the size of the print.", "Apply black acrylic paint to additional pieces of tracing paper layed over the photo. Use loose strokes to the areas you want to block out for the background colors. You'll be printing in reverse starting with the colors then the black to bring the image together.", "Paint a separate piece of tracing paper for each color you'll be printing.", "Mix the photo emulsion together and apply a thin layer to the screen. Place immediately into the drying unit to minimize exposure to light while drying.", "Let the layer of photo emulsion dry in the drying cabinet while repeating this process for each screen.", "Once the screens are dry. Place each piece of tracing paper on the exposure unit and then place one of the prepared screens on top of the image.", "Once exposed, quickly rinse the emulsion to thoroughly remove the unexposed emulsion while leaving behind the exposed and hardened emulsion on the screen. This leaves you with a positive of your final image for that screen.", "Mix the acrylic paint and screen printing medium to create the desired color for each screen.", "Attach your screen to the hinge clamps. To complete the setup, attach a piece of acetate on one side to the base so it can be flipped out of place and laid back into the same place.", "Pour out a band of ink along the edge closest to you. Lifting the screen slightly squeegee in a smooth motion away from you to evenly distribute the ink before more firmly pulling towards you on the return stroke to make the print.", "Place the original image under the acetate and use tape to create registration marks.", "Flip the acetate to the side and place your first piece of paper (or other surface). Repeat the process of distributing the paint and then make the print.", "Once finished with printing all copies with that screen, clean the screen, acetate registration sheet, and squeegee with a sponge and bucket of water.", "Allow each layer to dry completely before moving onto the next screen.", "Repeat this process for each color. The final layer will be the black photographic layer that brings the image together and creates a photographic like quality."]
-    }
+[
+  {
+    "title": "Paint Like Van Gogh",
+    "subtitle": "A step-by-step guide to get you painting like Van Gogh.",
+    "short": "Vincent Van Gogh",
+    "supplies": [
+      "Gesso Primed Canvas",
+      "Oil Paint",
+      "Paint Thinner",
+      "Rags or Paper Towels",
+      "Filbert Bristle Hair #2",
+      "Filbert #3",
+      "Filbert #4",
+      "Other stiff bristle brushes"
+    ],
+    "optional": ["Acrylic Paint", "Water"],
+    "steps": [
+      "Tone your canvas with an overall color that you see in the work. You can use acrylic paint thinned with water and let it dry, or you can use a thinned oil paint.",
+      "Divide your reference photo and canvas into a grid, dividing each side into even thirds. Don’t use a ruler as there is no need for perfection.\nUse a dry erase marker on a transparent sheet cover to preserve the photo. Use a thinned darker mixture of burnt sienna and ultramarine blue to draw your grid on your canvas.",
+      "Draw the largest shapes onto your canvas using the same thinned mixture. Use a smaller brush; I like a size 2 natural bristle hair filbert. If you make mistakes, you can easily wipe this off with a paper towel or rag soaked with some mineral spirits. Focus only on the large shapes. You’ll be adjusting placement and shapes later.",
+      "Begin studying the main colors in the reference. Notice the variations and contrasts between colors as well. There is no single formula or approach for mixing colors. Discover what works best for you to find a close match.",
+      "Develop your pallette of colors and test them next to one another on the canvas before mixing larger amounts.",
+      "Consider laying your paint on a towel as your pallette. This will absorb some oil and allow for a more matte finish.",
+      "Pick up a generous amount of paint with your brush. Begin laying the brush on the canvas with a light touch. Lay each stroke next to each other. Avoid rubbing the paint or moving the brush too much as you place each stroke.",
+      "When changing colors wipe off the previous color on a rag or paper towel before picking up the next color.",
+      "Think not only about form, but the emotion, light, and movement of the subject.",
+      "Allow but don't force colors to blend as you lay strokes next to one another.",
+      "Proceed until you've covered your original sketch, and make adjustments to the shape as you go. It's okay to have portions of the toned canvas showing through between strokes.",
+      "You can emphasize edges of shapes with dark outlines."
+    ]
+  },
+  {
+    "title": "Screen Print Like Warhol",
+    "subtitle": "A step-by-step guide to pop-art screen printing.",
+    "short": "Andy Warhol",
+    "supplies": [
+      "High Contrast B&W Photo",
+      "Tracing Paper",
+      "Chip Brush",
+      "Black Acrylic",
+      "Photo-emulsion",
+      "Screens",
+      "Coating Trough",
+      "Drying Cabinet",
+      "Exposure Unit",
+      "Water hose",
+      "Acrylic Paint",
+      "Screen Printing Medium",
+      "Hinge Clamps on a Secure Base",
+      "Masking Tape",
+      "Spatula",
+      "Cutting Mat & X-ACTO Knife",
+      "Acetate",
+      "Squeegee",
+      "Paper",
+      "Sponge",
+      "Bucket"
+    ],
+    "optional": [
+      "Drafting Film",
+      "Card Stock",
+      "Non-paper Surface",
+      "Newsprint"
+    ],
+    "steps": [
+      "Print the high contrast photo on a piece of tracing paper the size of the print.",
+      "Apply black acrylic paint to additional pieces of tracing paper layed over the photo. Use loose strokes to the areas you want to block out for the background colors. You'll be printing in reverse starting with the colors then the black to bring the image together.",
+      "Paint a separate piece of tracing paper for each color you'll be printing.",
+      "Mix the photo emulsion together and apply a thin layer to the screen. Place immediately into the drying unit to minimize exposure to light while drying.",
+      "Let the layer of photo emulsion dry in the drying cabinet while repeating this process for each screen.",
+      "Once the screens are dry. Place each piece of tracing paper on the exposure unit and then place one of the prepared screens on top of the image.",
+      "Once exposed, quickly rinse the emulsion to thoroughly remove the unexposed emulsion while leaving behind the exposed and hardened emulsion on the screen. This leaves you with a positive of your final image for that screen.",
+      "Mix the acrylic paint and screen printing medium to create the desired color for each screen.",
+      "Attach your screen to the hinge clamps. To complete the setup, attach a piece of acetate on one side to the base so it can be flipped out of place and laid back into the same place.",
+      "Pour out a band of ink along the edge closest to you. Lifting the screen slightly squeegee in a smooth motion away from you to evenly distribute the ink before more firmly pulling towards you on the return stroke to make the print.",
+      "Place the original image under the acetate and use tape to create registration marks.",
+      "Flip the acetate to the side and place your first piece of paper (or other surface). Repeat the process of distributing the paint and then make the print.",
+      "Once finished with printing all copies with that screen, clean the screen, acetate registration sheet, and squeegee with a sponge and bucket of water.",
+      "Allow each layer to dry completely before moving onto the next screen.",
+      "Repeat this process for each color. The final layer will be the black photographic layer that brings the image together and creates a photographic like quality."
+    ]
+  }
 ]

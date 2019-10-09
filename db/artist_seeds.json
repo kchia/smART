@@ -1,43 +1,47 @@
-[{
-  "name": "Vincent van Gogh",
-  "title": "Portrait of a Painter",
-  "photo": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Vincent_van_Gogh_-_Self-portrait_with_grey_felt_hat_-_Google_Art_Project.jpg",
-  "birth": "1853-03-30",
-  "death": "1890-07-29",
-  "bio": "Vincent Willem van Gogh was a Dutch post-impressionist painter who is among the most famous and influential figures in the history of Western art. In just over a decade he created about 2,100 artworks, including around 860 oil paintings, most of which date from the last two years of his life. They include landscapes, still lifes, portraits and self-portraits, and are characterized by bold colors and dramatic, impulsive and expressive brushwork that contributed to the foundations of modern art. He was not commercially successful, and his suicide at 37 came after years of mental illness and poverty.",
-  "works": ["Skull of a Skeleton with Burning Cigarette (1885-86)",
-    "Peasant Woman Digging (1885)",
-    "Self-Portrait with Grey Felt Hat (1887-88)",
-    "Bedroom in Arles (1888)",
-    "Van Gough’s Chair (1888)",
-    "Still Life: Vase with Twelve Sunflowers (1888)",
-    "The Sower (1888)",
-    "Self-portrait with Bandaged Ear and Pipe (1889)",
-    "Starry Night (1889)",
-    "Wheat Fields (1889)"
-  ],
-  "tutorials": []
-}, {
-  "name": "Frida Kahlo",
-  "title": "Master of Mexican Magical Realism",
-  "photo": "https://upload.wikimedia.org/wikipedia/commons/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg",
-  "birth": "1907-07-06",
-  "death": "1954-07-13",
-  "bio": "Frida Kahlo was a Mexican painter known for her portraits, self-portraits, and paintings inspired by nature and Mexican culture. Her folk art style explored identity, gender, class, race, and post-colonialism. She often blended autobiographic elements with realism and fantasy—giving her marks as both a surrealist and magical realist. Though her work was exhibited in the late 1930s and 1940s, her work remained relatively unknown until the late 1970s when art historians and activists rediscovered it. She died shortly after her first solo exhibition in Mexico in 1953 after her health declined over the previous decade. She is now an icon for Chicanos, feminists, and the LGBT movements.",
-  "works": [
-    "Frida and Diego (1931)",
-    "My Birth (1932)",
-    "Henry Ford Hospital (1932)",
-    "Frame (1938)",
-    "The Two Fridas (1939)",
-    "Self Portrait with Monkeys (1940)",
-    "Self Portrait with Thorn Necklace & Hummingbird (1940)",
-    "Self Portrait with Cropped Hair (1940)",
-    "Thinking About Death (1943)",
-    "The Broken Column (1944)",
-    "The Wounded Dear (1946)",
-    "Diego and I (1949)",
-    "Love's Embrace of the Universe, Earth (1949)"
-  ],
-  "tutorials": []
-}]
+[
+  {
+    "name": "Vincent van Gogh",
+    "title": "Portrait of a Painter",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Vincent_van_Gogh_-_Self-portrait_with_grey_felt_hat_-_Google_Art_Project.jpg",
+    "birth": "1853-03-30",
+    "death": "1890-07-29",
+    "bio": "Vincent Willem van Gogh was a Dutch post-impressionist painter who is among the most famous and influential figures in the history of Western art. In just over a decade he created about 2,100 artworks, including around 860 oil paintings, most of which date from the last two years of his life. They include landscapes, still lifes, portraits and self-portraits, and are characterized by bold colors and dramatic, impulsive and expressive brushwork that contributed to the foundations of modern art. He was not commercially successful, and his suicide at 37 came after years of mental illness and poverty.",
+    "works": [
+      "Skull of a Skeleton with Burning Cigarette (1885-86)",
+      "Peasant Woman Digging (1885)",
+      "Self-Portrait with Grey Felt Hat (1887-88)",
+      "Bedroom in Arles (1888)",
+      "Van Gough’s Chair (1888)",
+      "Still Life: Vase with Twelve Sunflowers (1888)",
+      "The Sower (1888)",
+      "Self-portrait with Bandaged Ear and Pipe (1889)",
+      "Starry Night (1889)",
+      "Wheat Fields (1889)"
+    ],
+    "tutorials": []
+  },
+  {
+    "name": "Frida Kahlo",
+    "title": "Master of Mexican Magical Realism",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg",
+    "birth": "1907-07-06",
+    "death": "1954-07-13",
+    "bio": "Frida Kahlo was a Mexican painter known for her portraits, self-portraits, and paintings inspired by nature and Mexican culture. Her folk art style explored identity, gender, class, race, and post-colonialism. She often blended autobiographic elements with realism and fantasy—giving her marks as both a surrealist and magical realist. Though her work was exhibited in the late 1930s and 1940s, her work remained relatively unknown until the late 1970s when art historians and activists rediscovered it. She died shortly after her first solo exhibition in Mexico in 1953 after her health declined over the previous decade. She is now an icon for Chicanos, feminists, and the LGBT movements.",
+    "works": [
+      "Frida and Diego (1931)",
+      "My Birth (1932)",
+      "Henry Ford Hospital (1932)",
+      "Frame (1938)",
+      "The Two Fridas (1939)",
+      "Self Portrait with Monkeys (1940)",
+      "Self Portrait with Thorn Necklace & Hummingbird (1940)",
+      "Self Portrait with Cropped Hair (1940)",
+      "Thinking About Death (1943)",
+      "The Broken Column (1944)",
+      "The Wounded Dear (1946)",
+      "Diego and I (1949)",
+      "Love's Embrace of the Universe, Earth (1949)"
+    ],
+    "tutorials": []
+  }
+]
