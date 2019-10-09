@@ -253,6 +253,10 @@ input[type="text"] {
     margin-top: 1em;
 }
 
+.top-spaced {
+    margin-top: 1em;
+}
+
 textarea {
     white-space: pre-line;
 }
@@ -417,5 +421,9 @@ input[type="submit"]:hover {
 
     .delete {
         margin: -2.45em 7em 1em;
+    }
+
+    .top-spaced-mobile {
+        margin-top: 1em;
     }
 }
