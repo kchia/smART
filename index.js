@@ -29,4 +29,8 @@ app.use("/tutorials", tutorialController);
 app.use("/artists", artistController);
 
 // local host port
-app.listen(4000, () => console.log("Running on port 4000!"));
+app.set("port", process.env.PORT || 8080);
+
+app.listen(app.get("port"), () => {
+  console.log(`✅ PORT: ${app.get("port")} 🌟`);
+});
