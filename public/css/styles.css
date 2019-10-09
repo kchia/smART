@@ -414,4 +414,8 @@ input[type="submit"]:hover {
     h2 {
         line-height: 1em;
     }
+
+    .delete {
+        margin: -2.45em 7em 1em;
+    }
 }
