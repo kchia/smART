@@ -8,6 +8,7 @@
   "description": "smART is a new community by and for fine artists to share techniques, tricks, and inspiration.",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "repository": {
